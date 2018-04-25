@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">MiniMax</string>
+
+    <string name="RollName">Roll to Hit (5th Ed. Dungeons and Dragons)</string>
+    <string name="RollDes">Roll to Hit is a live play, 5th edition Dungeons and Dragons podcast. Join in on the adventure as our heroes go on epic quests, battle fierce monsters, level up, and find sweet loot.</string>
+    <string name="RollLink">rolltohitshow/</string>
+
+    <string name="BVName">The Bearded Vegans</string>
+    <string name="BVDes">The Bearded Vegans finds hosts Paul and Andy in a discussion dissecting all things vegan. News, reviews, interviews and in depth discussion of issues within the vegan community are regular features of the show.</string>
+    <string name="BVLink">thebeardedvegans/</string>
+
+    <string name="SkyName">Sky on Fire: A Star Wars RPG</string>
+    <string name="SkyDes">Set starting two years after the battle of Yavin, join the crew of the Daring Escape as they travel the galaxy dodging pirates, swindling the Hutts, learning about themselves, and generally trying not to get blown up. This homebrew Star Wars RPG issues the Fantasy Flight Games Edge of the Empire, Age of Rebellion, and Force and Destiny systems. It uses the Star Wars canon as a backdrop and some of the Characters and setting come into the game as cameos.</string>
+    <string name="SkyLink">skyonfire/</string>
+
+    <string name="EpicName">Epic Nitpick</string>
+    <string name="EpicDes">Co-hosts Paul and Andy have one mission, to leave no nit left unpicked! Each episode they choose one piece of pop culture, ranging from movies to music videos to cultural phenomenons and do their damnedest to nitpick the hell out of it.</string>
+    <string name="EpicLink">epic-nitpick/</string>
+
+
+    <string name="SkyCName">SkyFyre Comics</string>
+    <string name="SkycDes">Home to Floor Thirt13n, Task Force Alpha, What Now?, and the cult classic: Harrowing Horror from Beyond. We release an issue every two weeks.Most of our comics take place in New VanCity, a West Coast Canadian in the not too distant future, yet there are some that span time and place. We have our artists chained up in the basement of Campbell Hall and we won’t let them out until we’ve run out of stories to tell.</string>
+    <string name="SkyCLink">skyfyre/</string>
+
+    <string name="LooseName">Loose Endz</string>
+    <string name="LooseDes">Loose Endz is a liveplay podcast using D&amp;D 5e. Follow the stories of these player’s upper level adventures in this home brew world. We’re hawt, we’re gay, we’re here to play. Join us!</string>
+    <string name="LooseLink">loose-endz/</string>
+
+
+    <string name="rob">Rob</string>
+    <string name="shawn">Shawn</string>
+    <string name="josiah">Josiah</string>
+    <string name="andy">Andy</string>
+    <string name="paul">Paul</string>
+    <string name="david">David</string>
+    <string name="wren">Wren</string>
+    <string name="zem">Zem</string>
+    <string name="scrapper">Scrapper</string>
+    <string name="hulo">Hulo</string>
+    <string name="dewethar">Dewethar</string>
+    <string name="afagella">Afagella</string>
+    <string name="sollar">Sollar</string>
+    <string name="widget">Play an episode to display here</string>
+    <string name="seek_back">seek back</string>
+    <string name="seek_forward">seek forward</string>
+    <string name="show_logo">show logo</string>
+    <string name="play_button">play button</string>
+    <string name="play_pause_button">play pause button</string>
+    <string name="play_episode">play episode</string>
+    <string name="ad">banner ad</string>
+    <string name="host_image">host image</string>
+    <string name="no_internet">No internet connection. Please connect and try again.</string>
+    <string name="no_rss">No internet connection. Please connect and relaunch app to get new feed items.</string>
+    <string name="widget_play_episode">Play an episode to display here</string>
+    <string name="get_episodes">Looking for new episodes…</string>
+</resources>

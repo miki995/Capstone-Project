@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="8dp"
+                android:orientation="vertical"
+                tools:targetApi="lollipop">
+
+                <com.fmsirvent.ParallaxEverywhere.PEWImageView
+                    android:id="@+id/logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/show_logo"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rth" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_dark_background" />
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="400dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/showDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textSize="20sp" />
+
+                <GridView
+                    android:id="@+id/hostGrid"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:columnWidth="100dp"
+                    android:horizontalSpacing="8dp"
+                    android:numColumns="auto_fit"
+                    android:verticalSpacing="8dp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/showListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </android.support.design.widget.CoordinatorLayout>
+</android.support.v4.widget.NestedScrollView>

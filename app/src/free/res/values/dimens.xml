@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+
+    <dimen name="player_margin_top">6dp</dimen>
+    <dimen name="left_player_margin">60dp</dimen>
+
+    <dimen name="right_player_margin">60dp</dimen>
+</resources>

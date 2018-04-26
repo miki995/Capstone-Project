@@ -7,9 +7,6 @@ import android.provider.BaseColumns;
 
 public class FeedContract {
 
-    private FeedContract() {
-    }
-
     public static final String CONTENT_AUTHORITY = "com.inc.miki.minimax";
 
     public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);

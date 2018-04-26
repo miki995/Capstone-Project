@@ -70,14 +70,7 @@ public class WidgetProvider extends android.appwidget.AppWidgetProvider {
                 for (int appWidgetId : appWidgetIds) {
                     RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.appwidget_layout);
                     views.setTextViewText(R.id.widgetEpisodeName, showTitle);
-                    try {
-                        Bitmap showLogoBitmap = Picasso.get().load(showLogo).get();
-                        views.setImageViewBitmap(R.id.widgetLogo, showLogoBitmap);
-
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-
+                    views.setImageViewResource(R.id.widgetLogo, showLogo);
                     appWidgetManager.updateAppWidget(appWidgetId, views);
 
                     Intent playButtonIntent = new Intent(PlayerService.ACTION_PAUSE);
